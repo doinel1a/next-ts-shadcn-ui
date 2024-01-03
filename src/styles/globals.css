@@ -60,7 +60,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply flex h-full w-full flex-col bg-background text-foreground;
   }
 
   .github-corner:hover .octo-arm {
