@@ -5,6 +5,8 @@ import React from 'react';
 
 import type { Metadata } from 'next';
 
+import Footer from '@/components/footer';
+import Navbar from '@/components/navbar';
 import ThemeProvider from '@/components/ui/theme/provider';
 import EStorageKeys from '@/constants/keys';
 
@@ -23,7 +25,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           storageKey={EStorageKeys.theme}
           enableSystem
         >
+          <Navbar />
+
           {children}
+
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
