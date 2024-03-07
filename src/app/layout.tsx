@@ -9,8 +9,7 @@ import config from '_config';
 
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
-import ThemeProvider from '@/components/ui/theme/provider';
-import EStorageKeys from '@/constants/keys';
+import RootProvider from '@/providers/root';
 
 export const metadata: Metadata = {
   title: config.metadata.title,
@@ -28,18 +27,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en' suppressHydrationWarning>
       <body>
-        <ThemeProvider
-          attribute='class'
-          defaultTheme='system'
-          storageKey={EStorageKeys.theme}
-          enableSystem
-        >
+        <RootProvider>
           <Navbar />
 
           {children}
 
           <Footer />
-        </ThemeProvider>
+        </RootProvider>
       </body>
     </html>
   );
