@@ -17,7 +17,7 @@
     "preview": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "prettier": "prettier --write **/**/*.{html,css,scss,js,cjs,mjs,ts,tsx}",
+    "prettier": "prettier --write **/**/*.{html,css,scss,js,jsx,cjs,mjs,ts,tsx}",
     "test": "playwright test",
     "test:ui": "playwright test --ui"
   },
@@ -68,4 +68,3 @@
     "typescript": "5.7.2"
   }
 }
-

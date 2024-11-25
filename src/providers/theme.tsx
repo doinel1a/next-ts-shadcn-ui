@@ -22,4 +22,3 @@ export default function ThemeProvider({ children, ...properties }: ThemeProvider
     </NextThemesProvider>
   );
 }
-
