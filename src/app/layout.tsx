@@ -9,7 +9,7 @@ import config from '_config';
 
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
-import RootProvider from '@/providers/root';
+import RootProvider from '@/components/providers/root';
 
 export const metadata: Metadata = {
   title: config.metadata.title,
