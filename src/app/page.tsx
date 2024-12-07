@@ -1,6 +1,12 @@
 import React from 'react';
 
-import Counter from '@/components/counter';
+import dynamic from 'next/dynamic';
+
+import { Skeleton } from '@/components/ui/skeleton';
+
+const Counter = dynamic(() => import('@/components/counter'), {
+  loading: () => <Skeleton className='h-44 w-72 rounded-md' />
+});
 
 export default function Home() {
   return (
