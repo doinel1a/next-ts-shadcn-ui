@@ -8,6 +8,7 @@ import type { Metadata, Viewport } from 'next';
 import config from '_config';
 
 import Footer from '@/components/footer';
+import GithubCorner from '@/components/github-corner';
 import Navbar from '@/components/navbar';
 import RootProvider from '@/components/providers/root';
 
@@ -29,10 +30,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <RootProvider>
           <Navbar />
-
           {children}
-
           <Footer />
+
+          <GithubCorner
+            title='Get started on GitHub'
+            url='https://github.com/doinel1a/next-ts-shadcn-ui'
+          />
         </RootProvider>
       </body>
     </html>
