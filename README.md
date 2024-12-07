@@ -14,10 +14,10 @@
 [opera-icon]: https://github.com/alrra/browser-logos/blob/main/src/opera/opera_64x64.png
 [safari-icon]: https://github.com/alrra/browser-logos/blob/main/src/safari/safari_64x64.png
 
-# Next TypeScript & Shadcn/ui — Template
+# Next.js 15 TypeScript & Shadcn/ui — Template
 
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
-This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js**, **TypeScript**, **Shadcn/ui**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky** and much more!
+This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js 15**, **React.js 19**, **TypeScript**, **Shadcn/ui**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky** and much more!
 
 ---
 
@@ -70,7 +70,8 @@ This repository is ideal for front-end developers who want to build modern, fast
 
 This repository comes 🔋 packed with:
 
-- **Next.js**;
+- **Next.js 15**;
+- **React.js 19**;
 - **TypeScript**;
 - **Shadcn/ui**;
 - **TailwindCSS**;
