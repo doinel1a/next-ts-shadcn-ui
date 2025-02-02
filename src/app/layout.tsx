@@ -29,14 +29,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang='en' suppressHydrationWarning>
       <body>
         <RootProvider>
-          <Navbar />
-          {children}
-          <Footer />
+          <div className='grid min-h-[100dvh] grid-rows-[auto_1fr_auto]'>
+            <Navbar />
+            {children}
+            <Footer />
 
-          <GithubCorner
-            title='Get started on GitHub'
-            url='https://github.com/doinel1a/next-ts-shadcn-ui'
-          />
+            <GithubCorner
+              title='Get started on GitHub'
+              url='https://github.com/doinel1a/next-ts-shadcn-ui'
+            />
+          </div>
         </RootProvider>
       </body>
     </html>
