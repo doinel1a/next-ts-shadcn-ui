@@ -17,7 +17,9 @@ export default function Counter() {
         <Button
           className='w-10 rounded-full'
           data-testid='increase-count'
-          onClick={() => setCount((previousCount) => previousCount + 1)}
+          onClick={() => {
+            setCount((previousCount) => previousCount + 1);
+          }}
         >
           + 1
         </Button>
@@ -29,7 +31,9 @@ export default function Counter() {
         <Button
           className='w-10 rounded-full'
           data-testid='decrease-count'
-          onClick={() => setCount((previousCount) => previousCount - 1)}
+          onClick={() => {
+            setCount((previousCount) => previousCount - 1);
+          }}
         >
           - 1
         </Button>
