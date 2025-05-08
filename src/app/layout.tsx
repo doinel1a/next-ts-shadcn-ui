@@ -4,6 +4,7 @@ import '../styles/globals.scss';
 import React from 'react';
 
 import type { Metadata, Viewport } from 'next';
+import type { PropsWithChildren } from 'react';
 
 import config from '_config';
 
@@ -24,7 +25,9 @@ export const viewport: Viewport = {
   themeColor: '#000'
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+type TRootLayout = PropsWithChildren;
+
+export default function RootLayout({ children }: Readonly<TRootLayout>) {
   return (
     <html lang='en' suppressHydrationWarning>
       <body>
