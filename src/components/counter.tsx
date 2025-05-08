@@ -15,7 +15,8 @@ export default function Counter() {
       </CardHeader>
       <CardContent className='flex w-full items-center justify-between'>
         <Button
-          className='w-10 rounded-full'
+          size='icon'
+          className='rounded-full'
           data-testid='increase-count'
           onClick={() => {
             setCount((previousCount) => previousCount + 1);
@@ -29,7 +30,8 @@ export default function Counter() {
         </h2>
 
         <Button
-          className='w-10 rounded-full'
+          size='icon'
+          className='rounded-full'
           data-testid='decrease-count'
           onClick={() => {
             setCount((previousCount) => previousCount - 1);
