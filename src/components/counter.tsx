@@ -9,7 +9,7 @@ export default function Counter() {
   const [count, setCount] = useState(0);
 
   return (
-    <Card className='h-44 w-72 border border-border bg-secondary shadow-md'>
+    <Card className='border-border bg-secondary h-44 w-72 border shadow-md'>
       <CardHeader>
         <h1 className='text-center text-2xl'>Counter</h1>
       </CardHeader>
