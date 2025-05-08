@@ -2,8 +2,8 @@ import React from 'react';
 
 import type { PropsWithChildren } from 'react';
 
-import TanstackQueryProvider from './tanstack-query';
-import ThemeProvider from './theme';
+import TanstackQueryProvider from './client/tanstack-query';
+import ThemeProvider from './client/theme';
 
 type TRootProvider = PropsWithChildren;
 
