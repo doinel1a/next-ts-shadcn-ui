@@ -60,10 +60,10 @@ This repository is ideal for front-end developers who want to build modern, fast
 
   |                                                  | **npm**           | **bun**           | **pnpm**       | **yarn**       |
   | ------------------------------------------------ | ----------------- | ----------------- | -------------- | -------------- |
-  | To **install** the dependencies                  | `npm install`     | `bun install`     | `pnpm install` | `yarn install` |
-  | To **run** the **development server**            | `npm run dev`     | `bun run dev`     | `pnpm dev`     | `yarn dev`     |
-  | To **build** your app **for production**         | `npm run build`   | `bun run build`   | `pnpm build`   | `yarn build`   |
-  | To **preview** your **production optimized app** | `npm run preview` | `bun run preview` | `pnpm preview` | `yarn preview` |
+  | **install** dependencies                  | `npm install`     | `bun install`     | `pnpm install` | `yarn install` |
+  | **run** the **development server**            | `npm run dev`     | `bun run dev`     | `pnpm dev`     | `yarn dev`     |
+  | **build** your **production app**         | `npm run build`   | `bun run build`   | `pnpm build`   | `yarn build`   |
+  | **preview** your **production app** | `npm run preview` | `bun run preview` | `pnpm preview` | `yarn preview` |
 
 [Back to :arrow_up:](#next-typescript--shadcnui--template "Back to 'Table of contents' section")
 
