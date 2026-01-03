@@ -50,7 +50,7 @@ This repository is ideal for front-end developers who want to build modern, fast
 ### Start developing:
 
 - Get the repository:
-  - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
+  - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> *alternately*
   - **clone** the repository through your terminal: <br />
     ```bash
     git clone https://github.com/doinel1a/next-ts-shadcn-ui YOUR-PROJECT-NAME
