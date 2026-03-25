@@ -6,8 +6,9 @@ import './src/env';
 
 import type { NextConfig } from 'next';
 
-const nextConfig = {
+const config = {
+  reactCompiler: true,
   reactStrictMode: true
 } satisfies NextConfig;
 
-export default nextConfig;
+export default config;
