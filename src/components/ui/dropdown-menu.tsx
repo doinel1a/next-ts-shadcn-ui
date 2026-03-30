@@ -1,5 +1,6 @@
 /* eslint-disable sonarjs/prefer-read-only-props */
 /* eslint-disable unicorn/prevent-abbreviations */
+/* eslint-disable @typescript-eslint/no-restricted-imports */
 
 'use client';
 
