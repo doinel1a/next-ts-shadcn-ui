@@ -3,9 +3,9 @@ import type { PropsWithChildren } from 'react';
 import TanstackQueryProvider from './client/tanstack-query';
 import ThemeProvider from './client/theme';
 
-type TRootProvider = PropsWithChildren;
+type TRootProvider = Readonly<PropsWithChildren>;
 
-export default function RootProvider({ children }: Readonly<TRootProvider>) {
+export default function RootProvider({ children }: TRootProvider) {
   return (
     <ThemeProvider>
       <TanstackQueryProvider>{children}</TanstackQueryProvider>
