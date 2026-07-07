@@ -1,4 +1,3 @@
-/* eslint-disable unicorn/prevent-abbreviations */
 /* eslint-disable @typescript-eslint/no-restricted-imports */
 
 import * as React from 'react';
@@ -52,7 +51,7 @@ function Button({
   variant = 'default',
   size = 'default',
   asChild = false,
-  ...props
+  ...properties
 }: React.ComponentProps<'button'> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean;
@@ -65,7 +64,7 @@ function Button({
       data-variant={variant}
       data-size={size}
       className={cn(buttonVariants({ variant, size, className }))}
-      {...props}
+      {...properties}
     />
   );
 }
